@@ -1,0 +1,79 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #E5E3C9;
+    color: #2B4865;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+h1, p {
+    margin: 1em auto;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    width: 60vw;
+    padding-bottom: 2em;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #2B4865;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+input, textarea, select {
+    width: 100%;
+    margin: 10px 0 0 0;
+    color: #E5E3C9;
+    min-height: 2em;
+    background-color: #2B4865;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+input, textarea {
+    border: 1px solid #2B4865;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #E5E3C9;
+    border-color: #2B4865;
+    min-width: 300px;
+    color: #2B4865;
+}
+
+input[type="file"] {
+    padding: 1px 2px;
+}
+
+a {
+    color: #2B4865;
+}
+
+::placeholder {
+    color: #E5E3C9;
+}
