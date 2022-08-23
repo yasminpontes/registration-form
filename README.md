@@ -1,2 +1,2 @@
 # registration-form
-Just a simple registration form to begging with :)
+Just a simple registration form to begin with :)
